@@ -35,6 +35,8 @@ h2 {
   background-color: #FFF;
   border-radius: 10px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.05);
+  display: flex;
+  align-items: center;
 }
 
 .celebrityBar span {
@@ -42,7 +44,7 @@ h2 {
   margin: 0 10px;
 }
 
-.celebrityBar img {
+.celebrityBar img.profile {
   width: 40px;
   height: 40px;
   border-radius: 50%;
@@ -56,10 +58,32 @@ h2 {
   margin: 0 10px;
   border-radius: 10px;
   overflow: hidden;
+  position: relative; /* added this for the icon positioning */
 }
 
 .milesFill {
   height: 100%;
   background-color: #D43F00;
   border-radius: 10px;
+}
+
+/* New styles for the cartoon icons */
+.cartoonIcon-left,
+.cartoonIcon-right {
+  width: 5px;
+  height: 20px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-size: cover;
+}
+
+.cartoonIcon-left {
+  background-image: url('./icons8-person-64.png');
+  left: -30px; /* Adjust this value to position it exactly where you want */
+}
+
+.cartoonIcon-right {
+  background-image: url('./icons8-person-64.png');
+  right: -30px; /* Adjust this value to position it exactly where you want */
 }

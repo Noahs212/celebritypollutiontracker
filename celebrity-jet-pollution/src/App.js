@@ -3,8 +3,9 @@ import './App.css';
 import CelebrityBar from './CelebrityBar';
 
 const data = [
-    { name: "Michael Jordan", milesTraveled: 248, profilePicture: "path_to_image" },
-    { name: "LeBron James", milesTraveled: 194, profilePicture: "path_to_image" },
+    { name: "Michael Jordan", milesTraveled: 2408, profilePicture: "path_to_image" },
+    { name: "LeBron James", milesTraveled: 1940, profilePicture: "path_to_image" },
+    { name: "Donald Trump", milesTraveled: 5000, profilePicture: "path_to_image" },
     // Add other celebrities data here
 ];
 
@@ -14,7 +15,8 @@ function App() {
     return (
         <div className="App">
             <h1>Celebrity Private Jet Pollution</h1>
-            <h2>Year 2023</h2>
+            <h2>Year 2023 </h2>
+            <h2></h2>
             {sortedData.map((celeb, index) => (
                 <CelebrityBar 
                     key={index}
