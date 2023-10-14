@@ -1,15 +1,19 @@
 import React from 'react';
 import './App.css';
 import CelebrityBar from './CelebrityBar';
+import donaldTrump from './Donald_Trump.jpg'
+import michaelJordan from './Michael_Jordan.jpg'
+import ericSchmidt from './Eric_Schmidt.jpg'
+import alexRodriguez from './Alex_Rodriguez.jpg'
 
 const data = [
-    { name: "Michael Jordan", milesTraveled: 248, profilePicture: "path_to_image" },
+    { name: "Michael Jordan", milesTraveled: 248, profilePicture: michaelJordan },
     { name: "Kylie Jenner", milesTraveled: 983, profilePicture: "path_to_image" },
-    { name: "Donald Trump", milesTraveled: 5296, profilePicture: "Donald_Trump_official_portrait.jpg" },
+    { name: "Donald Trump", milesTraveled: 5296, profilePicture: donaldTrump },
     { name: "Eric Schmidt", milesTraveled: 1211, profilePicture: "path_to_image" },
     { name: "Jay Z", milesTraveled: 1045, profilePicture: "path_to_image" },
     { name: "Travis Scott", milesTraveled: 994, profilePicture: "path_to_image" },
-    { name: "Alex Rodriguez", milesTraveled: 898, profilePicture: "path_to_image" },
+    { name: "Alex Rodriguez", milesTraveled: 898, profilePicture: alexRodriguez },
     { name: "Drake", milesTraveled: 886, profilePicture: "path_to_image" },
     { name: "Luke Bryan", milesTraveled: 858, profilePicture: "path_to_image" },
     { name: "Kim Kardashian", milesTraveled: 832, profilePicture: "path_to_image" },
