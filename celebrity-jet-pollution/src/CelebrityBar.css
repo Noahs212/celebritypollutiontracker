@@ -1,0 +1,23 @@
+.celebrityBar {
+    display: flex;
+    align-items: center;
+}
+
+.celebrityBar img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin: 0 10px;
+}
+
+.milesBar {
+    width: 250px;
+    height: 20px;
+    background-color: #eee;
+    margin: 0 10px;
+}
+
+.milesFill {
+    height: 100%;
+    background-color: red;
+}
