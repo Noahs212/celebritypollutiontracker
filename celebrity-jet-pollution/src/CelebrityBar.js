@@ -10,11 +10,11 @@ const CelebrityBar = ({ rank, name, milesTraveled, profilePicture }) => {
             <div className="nameAndBarContainer">
                 <span>{name}</span>
                 <div className="milesBar">
-                    <div style={{ width: `${milesTraveled / 15}px` }} className="milesFill"></div>
+                    <div style={{ width: `${milesTraveled / 5}px` }} className="milesFill"></div>
                 </div>
                 <img src={peopleIcon} className="cartoonIcon" />
             </div>
-            <span>{milesTraveled}</span>
+            <span>{Math.floor(milesTraveled/4.76)}</span>
         </div>
     );
 }

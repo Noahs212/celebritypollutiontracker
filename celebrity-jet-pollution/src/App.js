@@ -60,8 +60,10 @@ function App() {
     return (
         <div className="App">
             <h1>Celebrity Private Jet Pollution</h1>
-            <h2>Year 2023 </h2>
-            <h2></h2>
+            <div className="year-section">
+                <h2>Year 2023</h2>
+                <h4>(In units of the average person's yearly CO2 footprint 🧍‍♀️ = 4.76 tons of CO2)</h4>
+            </div>
             {sortedData.map((celeb, index) => (
                 <CelebrityBar 
                     key={index}
@@ -76,3 +78,4 @@ function App() {
 }
 
 export default App;
+
