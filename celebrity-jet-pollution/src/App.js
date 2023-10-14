@@ -4,6 +4,7 @@ import CelebrityBar from './CelebrityBar';
 
 const data = [
     { name: "Michael Jordan", milesTraveled: 248, profilePicture: "path_to_image" },
+    { name: "LeBron James", milesTraveled: 194, profilePicture: "path_to_image" },
     // Add other celebrities data here
 ];
 

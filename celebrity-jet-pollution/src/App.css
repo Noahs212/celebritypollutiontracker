@@ -1,38 +1,65 @@
+/* App.css */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #F9F9F9;
+  margin: 0;
+  padding: 0;
+}
+
 .App {
-  text-align: center;
+  width: 80%;
+  max-width: 800px;
+  margin: 50px auto;
+  background: linear-gradient(to bottom, #FFD700, #FFEB89); /* Added gradient from a more gold color at top to lighter gold at bottom */
+  border-radius: 20px;
+  padding: 30px 50px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1 {
+  color: #4A4A4A;
+  font-size: 24px;
+  margin-bottom: 10px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h2 {
+  color: #4A4A4A;
+  font-size: 20px;
+  margin-bottom: 20px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.celebrityBar {
+  margin: 10px 0;
+  padding: 10px;
+  background-color: #FFF;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.05);
 }
 
-.App-link {
-  color: #61dafb;
+.celebrityBar span {
+  color: #4A4A4A;
+  margin: 0 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.celebrityBar img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin: 0 10px;
+}
+
+.milesBar {
+  flex-grow: 1;
+  height: 20px;
+  background-color: #EEE;
+  margin: 0 10px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.milesFill {
+  height: 100%;
+  background-color: #D43F00;
+  border-radius: 10px;
 }
