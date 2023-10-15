@@ -19,11 +19,11 @@ const data = [
     { name: "Steve Wynn", milesTraveled: 814, profilePicture: "./PFP/Steve_Wynn.jpg" },
     { name: "Floyd Mayweather", milesTraveled: 769, profilePicture: "./PFP/Floyd_Mayweather.jpg" },
     { name: "Mark Zuckerberg", milesTraveled: 733, profilePicture: "./PFP/Mark_Zuckerberg.jpg" },
-    { name: "Makr Cuban", milesTraveled: 644, profilePicture: "./PFP/Mark_Cuban.jpg" },
+    { name: "Marl Cuban", milesTraveled: 644, profilePicture: "./PFP/Mark_Cuban.jpg" },
     { name: "Blake Shelton", milesTraveled: 641, profilePicture: "./PFP/Blake_Shelton.jpg" },
     { name: "Steven Spielberg", milesTraveled: 574, profilePicture: "./PFP/Steven_Spielberg.jpg" },
     { name: "Mark Wahlberg", milesTraveled: 543, profilePicture: "./PFP/Mark_Wahlberg.jpg" },
-    { name: "Steve Balmer", milesTraveled: 480, profilePicture: "./PFP/Steve_Balmer.jpg" },
+    { name: "Steve Ballmer", milesTraveled: 480, profilePicture: "./PFP/Steve_Balmer.jpg" },
     { name: "Ron Perelman", milesTraveled: 473, profilePicture: "./PFP/Ron_Perelman.jpg" },
     { name: "Larry Ellison", milesTraveled: 462, profilePicture: "./PFP/Larry_Ellison.jpg" },
     { name: "Oprah Winfrey", milesTraveled: 436, profilePicture: "./PFP/Oprah_Winfrey.jpg" },
@@ -70,7 +70,7 @@ function App() {
             <h1> ✈️ Celebrity Private Jet Pollution</h1>
             <div className="year-section">
                 <h2>Year 2023</h2>
-                <h4>(In units of the average person's yearly CO2 footprint 🧍‍♀️ = 4.76 tons of CO2)</h4>
+                <h4>(In units of the average person's yearly CO2 footprint, 🧍‍♀️ = 4.76 tons of CO2)</h4>
             </div>
             {sortedData.map((celeb, index) => (
                 <CelebrityBar 
