@@ -19,7 +19,7 @@ const data = [
     { name: "Steve Wynn", milesTraveled: 814, profilePicture: "./PFP/Steve_Wynn.jpg" },
     { name: "Floyd Mayweather", milesTraveled: 769, profilePicture: "./PFP/Floyd_Mayweather.jpg" },
     { name: "Mark Zuckerberg", milesTraveled: 733, profilePicture: "./PFP/Mark_Zuckerberg.jpg" },
-    { name: "Marl Cuban", milesTraveled: 644, profilePicture: "./PFP/Mark_Cuban.jpg" },
+    { name: "Mark Cuban", milesTraveled: 644, profilePicture: "./PFP/Mark_Cuban.jpg" },
     { name: "Blake Shelton", milesTraveled: 641, profilePicture: "./PFP/Blake_Shelton.jpg" },
     { name: "Steven Spielberg", milesTraveled: 574, profilePicture: "./PFP/Steven_Spielberg.jpg" },
     { name: "Mark Wahlberg", milesTraveled: 543, profilePicture: "./PFP/Mark_Wahlberg.jpg" },
