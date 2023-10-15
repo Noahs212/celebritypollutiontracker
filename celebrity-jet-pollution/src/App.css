@@ -1,5 +1,6 @@
 /* App.css */
 
+@import url("https://fonts.googleapis.com/css2?family=space-grotesk:wght@300;ital@1&display=swap");
 body {
   font-family: Arial, sans-serif;
   background-color: #F9F9F9;
@@ -22,6 +23,7 @@ h1 {
   color: #686161;
   font-size: 30px;
   margin-bottom: 10px;
+  font-family: 'Space Grotesk', sans-serif;
 }
 
 h2 {
