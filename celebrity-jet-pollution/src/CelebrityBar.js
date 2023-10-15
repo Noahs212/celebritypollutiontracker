@@ -3,7 +3,7 @@ import './CelebrityBar.css';
 import peopleIcon from './icons8-person-64.png'
 
 const CelebrityBar = ({ rank, name, milesTraveled, profilePicture }) => {
-    profilePicture = "./donald.jpg";
+
     return (
         <div className="celebrityBar">
             <span>{rank}</span>
