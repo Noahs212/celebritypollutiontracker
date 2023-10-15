@@ -12,20 +12,20 @@ body {
   width: 80%;
   max-width: 800px;
   margin: 50px auto;
-  background: linear-gradient(to bottom, #FFD700, #FFEB89); /* Added gradient from a more gold color at top to lighter gold at bottom */
+  background: linear-gradient(to bottom, #3af619 .001%, #00fcd6 10%); /* Added gradient from a more gold color at top to lighter gold at bottom */
   border-radius: 20px;
   padding: 30px 50px;
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
 }
 
 h1 {
-  color: #4A4A4A;
+  color: #686161;
   font-size: 30px;
   margin-bottom: 10px;
 }
 
 h2 {
-  color: #4A4A4A;
+  color: #686161;
   font-size: 20px;
   margin-bottom: 20px;
 }
@@ -40,7 +40,7 @@ h2 {
 
 h2, h4 {
   margin: 0;
-  color: #4A4A4A;
+  color: #686161;
 }
 
 /* ... Rest of the existing CSS ... */
@@ -103,4 +103,29 @@ h2, h4 {
 .cartoonIcon-right {
   background-image: url('./icons8-person-64.png');
   right: -30px; /* Adjust this value to position it exactly where you want */
+}
+
+.app-header {
+  display: flex;             /* Makes child elements sit in a row */
+  justify-content: center;   /* Center the images horizontally */
+  align-items: center;       /* Center the images vertically */
+  padding: 10px;          
+}
+
+
+.app-header img {
+  width: 25%;
+  height: auto;
+  margin-left: 10px;
+  margin-right: 10px;
+
+}
+
+.hackgt {
+  margin-top: 32px;
+}
+
+.bigdiv {
+  background-color: #ffffff;
+
 }

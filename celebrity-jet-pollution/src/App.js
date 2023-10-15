@@ -6,6 +6,9 @@ import michaelJordan from './Michael_Jordan.jpg'
 import ericSchmidt from './Eric_Schmidt.jpg'
 import alexRodriguez from './Alex_Rodriguez.jpg'
 
+import hackgtlogo from './hackgtlogo.png';
+import flightaware from './flightaware.png';
+
 const data = [
     { name: "Michael Jordan", milesTraveled: 248, profilePicture: michaelJordan },
     { name: "Kylie Jenner", milesTraveled: 983, profilePicture: "path_to_image" },
@@ -62,8 +65,13 @@ const sortedData = data.sort((a, b) => b.milesTraveled - a.milesTraveled);
 
 function App() {
     return (
+      <div className='bigdiv'>
+        <header className='app-header'>
+          <img src={hackgtlogo} alt = "HackGT Logo" className='hackgt'/>
+          <img src={flightaware} alt = "aero api logo" className='header-image'/>
+        </header>
         <div className="App">
-            <h1>Celebrity Private Jet Pollution</h1>
+            <h1> ✈️ Celebrity Private Jet Pollution</h1>
             <div className="year-section">
                 <h2>Year 2023</h2>
                 <h4>(In units of the average person's yearly CO2 footprint 🧍‍♀️ = 4.76 tons of CO2)</h4>
@@ -78,6 +86,7 @@ function App() {
                 />
             ))}
         </div>
+      </div>
     );
 }
 
